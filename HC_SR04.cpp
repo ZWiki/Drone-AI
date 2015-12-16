@@ -1,6 +1,6 @@
 #include "HC_SR04.h"
 #include <Arduino.h>
-#include <stdint.h>
+#include <inttypes.h>
 namespace sensors
 {
 	HC_SR04::HC_SR04(uint8_t triggerPin, uint8_t echoPin, UNIT unit)
